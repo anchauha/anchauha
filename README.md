@@ -1,17 +1,24 @@
-## Hi there 👋
+## Hi 👋
+
+I am Ankit, a Machine Learning and Deep Learning Enthusiast. Currently, I am working as an AI Engineer at Indiana University.
+
+- [Work Experience](#work-experience)
+- [Other Works](#other-works)
+- [Profile](#profile)
+- [Contact](#contact)
 
 ### Work Experience
 
 ##### AI Engineer - Indiana University Indianapolis
 > Aug 2025 - Present
 
-- Implemented a weak supervision pipeline to expand a 270 example seed set [IU Press Release]([https://github.com/Emory-HITI/Niffler/](https://github.com/anchauha/asset-deficit-miner/blob/main/process_with_llm/data/output/results_gemini-2.5-Instruct_semantic_extraction_prompt3_d689d527.json) into a 1350 example corpus of asset vs deficit language. Fine-tuned a [BERT uncased model](bert_finetuning/models/bert-v1/best_model/experiment_results.json) and conducted human-in-the-loop validation to ensure data quality.
+- Implemented a weak supervision pipeline to expand a 270 example seed set [IU Press Release](https://github.com/anchauha/asset-deficit-miner/blob/main/process_with_llm/data/output/results_gemini-2.5-Instruct_semantic_extraction_prompt3_d689d527.json) into a 1350 example corpus of asset vs deficit language. Fine-tuned a [BERT uncased model](bert_finetuning/models/bert-v1/best_model/experiment_results.json) and conducted human-in-the-loop validation to ensure data quality.
 - The fine-tuned BERT classifier reached a macro F1 score of 0.68 on span-level classification, establishing the first reliable and automated method for tracking asset-deficit based language in documents.
 - Containerized and deployed the prototype web application using Flask. Achieved a p95 latency of 3.4 seconds on a V100 GPU under a load of 50 concurrent requests.
 
 ##### Research Assistant (AI) - Indiana University Indianapolis
 > Aug 2023 - May 2025
-- Led research and development of a culturally responsive GenAI system [CATpc (First Prototype)](https://github.com/anchauha/CATpc) for an [NSF funded research grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2334631), deploying NVIDIA TensorRT-optimized models on a Triton Inference Server for performance evaluations. The final system demonstrated 14% higher pedagogical alignment scores, 8% reduced hallucinations, and 27% increased teacher satisfaction compared to GPT-3.5 baseline.
+- Led research and development of a culturally responsive GenAI system [CATpc (First Prototype)](https://github.com/anchauha/CATpc) for an [NSF funded research grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2334631) under the esteemed guidance of [Prof. Sunandan Chakraborty](https://luddy.indianapolis.iu.edu/contact/directory/sunandan-chakraborty.html) & [Dr. Jeremy Price](https://education.indianapolis.iu.edu/faculty-research/faculty-directory/price-jeremy.html). For performance evaluations we optimized models using TensorRT and deployed it on Triton Inference Servers. The final system demonstrated 14% higher pedagogical alignment scores, 8% reduced hallucinations, and 27% increased teacher satisfaction compared to GPT-3.5 baseline.
 - Generated a large-scale dataset for lung cancer coreference resolution using a multistage process, which included fine-tuning a BERT model on 1000 expert annotations to generate predictions for 7500 PubMed abstracts. These predictions were validated by experts to successfully train 6 LLMs, with Mixtral 8x7B achieving 99% accuracy.
 
 ##### Teaching Assistant - Indiana University Indianapolis
@@ -22,7 +29,7 @@
 > Apr 2020 - Sep 2022
 
 - Engineered a data ingestion pipeline using PySpark to load data into 100+ Hive tables, reducing data processing time by 40%.
-- Built an XGBoost based predictive forecasting model that optimizes SKU selection for enterprise licensing needs, delivering 18% annual cost savings on underutilized license spend for 43,000+ users.
+- Built an XGBoost based predictive forecasting model that optimizes SKU selection for enterprise licensing needs. This benefited in 18% annual cost savings on underutilized license spend for 43,000+ users.
 - Developed Cloud Functions to process and load over 10 GB of daily raw JSON data from GCS bucket into BigQuery and Cloud SQL.
 - Led migration for legacy applications to Azure cloud environment during an enterprise split ensuring service continuity for over 23,000 users.
 
@@ -43,7 +50,10 @@
 #### Mod-Guide: An LLM-based Content Moderation Feedback System
 > 2024
 - Prototyped a multimodal NLP workflow processing 200 community collected text, image and audio documents of hate speech against minority voices in Bangladesh. Augmented the data with custom chain-of-thought reasoning, grounded in external knowledge sources, to generate [contextual metadata](data/Structured_RAG.pdf)
-- The final model’s performance was evaluated on a 50 example held out set where our GPT-4 + RAG system achieved an F1 score of 87% at detecting culturally nuanced hate speech compared to an F1 score of 64% from the zero-shot GPT-4 baseline.
+- The final model's performance was evaluated on a 50 example held out set where our GPT-4 + RAG system achieved an F1 score of 87% at detecting culturally nuanced hate speech compared to an F1 score of 64% from the zero-shot GPT-4 baseline.
+
+### Profile
+* [LinkedIn](https://www.linkedin.com/in/chauhan-aankit/)
 
 ### Contact
 
