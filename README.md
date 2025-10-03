@@ -12,7 +12,7 @@ I am Ankit, a Machine Learning and Deep Learning Enthusiast. Currently, I am wor
 ##### AI Engineer - Indiana University Indianapolis
 > Aug 2025 - Present
 
-- Implemented a weak supervision pipeline to expand a 270 example seed set [IU Press Release](https://github.com/anchauha/asset-deficit-miner/blob/main/process_with_llm/data/output/results_gemini-2.5-Instruct_semantic_extraction_prompt3_d689d527.json) into a 1350 example corpus of asset vs deficit language. Fine-tuned a [BERT uncased model]([https://github.com/anchauha/anchauha/bert_finetuning/models/bert-v1/best_model/experiment_results.json](https://github.com/anchauha/asset-deficit-miner/blob/main/bert_finetuning/models/bert-v1/best_model/experiment_results.json)) and conducted human-in-the-loop validation to ensure data quality.
+- Implemented a weak supervision pipeline to expand a 270 example seed set [IU Press Release](https://github.com/anchauha/asset-deficit-miner/blob/main/process_with_llm/data/output/results_gemini-2.5-Instruct_semantic_extraction_prompt3_d689d527.json) into a 1350 example corpus of asset vs deficit language. Fine-tuned a [BERT uncased model](https://github.com/anchauha/asset-deficit-miner/blob/main/bert_finetuning/models/bert-v1/best_model/experiment_results.json) and conducted human-in-the-loop validation to ensure data quality.
 - The fine-tuned BERT classifier reached a macro F1 score of 0.68 on span-level classification, establishing the first reliable and automated method for tracking asset-deficit based language in documents.
 - Containerized and deployed the prototype web application using Flask. Achieved a p95 latency of 3.4 seconds on a V100 GPU under a load of 50 concurrent requests.
 
