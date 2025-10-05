@@ -45,7 +45,7 @@ I am Ankit, a Machine Learning and Deep Learning Enthusiast. Currently, I am wor
 > 2024
 - Developed a quantitative framework to benchmark cultural bias in LLMs by applying PCA to extract 5 latent cultural dimensions from 97,000 records across 96 variables of [WVS Dataset](https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp)
 - Compared responses from Llama-2 13B, Gemma 3 12B, and Phi 4 across 5 extracted latent cultural dimensions using Tucker's Congruence Coefficient and Cohen's d, revealing consistent underestimation of Religious-Traditional values for non-Western demographic profiles (Cohen's d: -0.89 to -1.17) [Visualization](https://github.com/anchauha/CultureEval/blob/main/output/efa_comparison_all_models/visualizations/regional_bias_heatmap_all_models.png)
-- Created Western Bias Index and Overall Cultural Bias Index metrics, finding Llama-2 demonstrated the strongest [Western bias (WBI = 0.78)](https://github.com/anchauha/CultureEval/blob/main/output/efa_comparison_all_models/visualizations/western_bias_index.png) and Phi 4 the highest overall [cultural bias (OCBI = 1.34)](https://github.com/anchauha/CultureEval/blob/main/output/efa_comparison_all_models/visualizations/overall_cultural_bias_index.png).
+- Created Western Bias Index and Overall Cultural Bias Index metrics, finding Llama-2 demonstrated the strongest [Western bias (WBI = 1.34)](https://github.com/anchauha/CultureEval/blob/main/output/efa_comparison_all_models/visualizations/western_bias_index.png) and Phi 4 the highest overall [cultural bias (OCBI = 0.78)](https://github.com/anchauha/CultureEval/blob/main/output/efa_comparison_all_models/visualizations/overall_cultural_bias_index.png).
 
 #### Mod-Guide: An LLM-based Content Moderation Feedback System
 > 2024
